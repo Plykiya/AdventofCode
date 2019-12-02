@@ -14,7 +14,7 @@ class manipulation {
     $this->inputarray = $input;
     $this->position = 0;
     
-    /* Extra instructions given in the problem*/
+    /* Extra instructions given in the problem */
     $this->inputarray[1] = 12;
     $this->inputarray[2] = 2;
   }
