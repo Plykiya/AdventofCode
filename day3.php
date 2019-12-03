@@ -25,8 +25,6 @@ class position {
       
       /* Depending on the direction, will save the original position 
       and then update the corresponding direction to the final position.
-      It will loop from the original position to the final position and 
-      save every single coordinate of the wire into the array.
       For vertical movement, there will be no change in horizontal value
       so it can be assigned to the current horizontal value.
       For horizontal movement, there will be no change in vertical value 
