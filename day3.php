@@ -83,8 +83,8 @@ class comparison {
     foreach ($wire1 as $wire1point => $wire1values) {
       foreach ($wire2 as $wire2point => $wire2values) {
         
-        /* If the start of x of wire 2 is less than the end of x of wire 1, and if the end of x is greater than the start of x of wire 1, the x range overlaps
-        If the start of y of wire 2 is less than the end of y of wire 1, and if the end of y is greater than the start of y of wire 1, the y range overlaps
+        /* If the start of x of wire 2 is less than the end of x of wire 1, and if the end of x of wire 2 is greater than the start of x of wire 1, the x range overlaps
+        If the start of y of wire 2 is less than the end of y of wire 1, and if the end of y of wire 2 is greater than the start of y of wire 1, the y range overlaps
         If both overlap then there is an intersection of values*/
         if (($wire2values['x1'] < $wire1values['x2'] && $wire2values['x2'] > $wire1values['x1']) && ($wire2values['y1'] < $wire1values['y2'] && $wire2values['y2'] > $wire1values['y1'])) {
           
