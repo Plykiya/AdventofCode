@@ -78,4 +78,3 @@ $inputwire2 ="L1005,D52,L125,U787,L761,U262,L466,D966,R895,U789,R6,U2,R870,U971,
 $directionswire2 = explode(",", $inputwire2);
 $wire2 = new position($directionswire2);
 ?>
-?>
